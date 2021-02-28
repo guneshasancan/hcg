@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		043A5EDA25EB99E7009FA7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5ED925EB99E7009FA7D7 /* AppDelegate.swift */; };
 		043A5EDC25EB99E7009FA7D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EDB25EB99E7009FA7D7 /* SceneDelegate.swift */; };
-		043A5EDE25EB99E7009FA7D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EDD25EB99E7009FA7D7 /* ViewController.swift */; };
+		043A5EDE25EB99E7009FA7D7 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EDD25EB99E7009FA7D7 /* OnboardingVC.swift */; };
 		043A5EE125EB99E7009FA7D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043A5EDF25EB99E7009FA7D7 /* Main.storyboard */; };
 		043A5EE325EB99EA009FA7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043A5EE225EB99EA009FA7D7 /* Assets.xcassets */; };
 		043A5EE625EB99EA009FA7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043A5EE425EB99EA009FA7D7 /* LaunchScreen.storyboard */; };
+		043A5EFC25EBA351009FA7D7 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EF725EBA351009FA7D7 /* UIColor+Ext.swift */; };
+		043A5EFD25EBA351009FA7D7 /* TextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EF825EBA351009FA7D7 /* TextField+Ext.swift */; };
+		043A5EFE25EBA351009FA7D7 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EF925EBA351009FA7D7 /* UIView+Ext.swift */; };
+		043A5EFF25EBA351009FA7D7 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EFA25EBA351009FA7D7 /* UIViewController+Ext.swift */; };
+		043A5F0025EBA351009FA7D7 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EFB25EBA351009FA7D7 /* String+Ext.swift */; };
+		043A5F0425EBA371009FA7D7 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5F0325EBA371009FA7D7 /* Provider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		043A5ED625EB99E7009FA7D7 /* HCG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043A5ED925EB99E7009FA7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		043A5EDB25EB99E7009FA7D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		043A5EDD25EB99E7009FA7D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043A5EDD25EB99E7009FA7D7 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		043A5EE025EB99E7009FA7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043A5EE225EB99EA009FA7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043A5EE525EB99EA009FA7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043A5EE725EB99EA009FA7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043A5EF725EBA351009FA7D7 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		043A5EF825EBA351009FA7D7 /* TextField+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+Ext.swift"; sourceTree = "<group>"; };
+		043A5EF925EBA351009FA7D7 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		043A5EFA25EBA351009FA7D7 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		043A5EFB25EBA351009FA7D7 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		043A5F0325EBA371009FA7D7 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,59 @@
 			children = (
 				043A5ED925EB99E7009FA7D7 /* AppDelegate.swift */,
 				043A5EDB25EB99E7009FA7D7 /* SceneDelegate.swift */,
-				043A5EDD25EB99E7009FA7D7 /* ViewController.swift */,
+				043A5EF225EB9ABA009FA7D7 /* Extensions */,
+				043A5F0225EBA35A009FA7D7 /* Networking */,
+				043A5EEF25EB9A9B009FA7D7 /* Model */,
+				043A5EF025EB9AA5009FA7D7 /* View */,
+				043A5EF125EB9AAC009FA7D7 /* Controller */,
 				043A5EDF25EB99E7009FA7D7 /* Main.storyboard */,
-				043A5EE225EB99EA009FA7D7 /* Assets.xcassets */,
 				043A5EE425EB99EA009FA7D7 /* LaunchScreen.storyboard */,
+				043A5EE225EB99EA009FA7D7 /* Assets.xcassets */,
 				043A5EE725EB99EA009FA7D7 /* Info.plist */,
 			);
 			path = HCG;
+			sourceTree = "<group>";
+		};
+		043A5EEF25EB9A9B009FA7D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		043A5EF025EB9AA5009FA7D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		043A5EF125EB9AAC009FA7D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				043A5EDD25EB99E7009FA7D7 /* OnboardingVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		043A5EF225EB9ABA009FA7D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				043A5EFB25EBA351009FA7D7 /* String+Ext.swift */,
+				043A5EF825EBA351009FA7D7 /* TextField+Ext.swift */,
+				043A5EF725EBA351009FA7D7 /* UIColor+Ext.swift */,
+				043A5EF925EBA351009FA7D7 /* UIView+Ext.swift */,
+				043A5EFA25EBA351009FA7D7 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		043A5F0225EBA35A009FA7D7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				043A5F0325EBA371009FA7D7 /* Provider.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043A5EDE25EB99E7009FA7D7 /* ViewController.swift in Sources */,
+				043A5EDE25EB99E7009FA7D7 /* OnboardingVC.swift in Sources */,
+				043A5EFC25EBA351009FA7D7 /* UIColor+Ext.swift in Sources */,
+				043A5EFF25EBA351009FA7D7 /* UIViewController+Ext.swift in Sources */,
+				043A5EFE25EBA351009FA7D7 /* UIView+Ext.swift in Sources */,
+				043A5F0425EBA371009FA7D7 /* Provider.swift in Sources */,
+				043A5EFD25EBA351009FA7D7 /* TextField+Ext.swift in Sources */,
 				043A5EDA25EB99E7009FA7D7 /* AppDelegate.swift in Sources */,
+				043A5F0025EBA351009FA7D7 /* String+Ext.swift in Sources */,
 				043A5EDC25EB99E7009FA7D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2UBK6CWSS;
 				INFOPLIST_FILE = HCG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcg.HCG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2UBK6CWSS;
 				INFOPLIST_FILE = HCG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcg.HCG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
