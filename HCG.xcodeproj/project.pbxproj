@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,7 +18,13 @@
 		043A5EFE25EBA351009FA7D7 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EF925EBA351009FA7D7 /* UIView+Ext.swift */; };
 		043A5EFF25EBA351009FA7D7 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EFA25EBA351009FA7D7 /* UIViewController+Ext.swift */; };
 		043A5F0025EBA351009FA7D7 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5EFB25EBA351009FA7D7 /* String+Ext.swift */; };
-		043A5F0425EBA371009FA7D7 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5F0325EBA371009FA7D7 /* Provider.swift */; };
+		043A5F0425EBA371009FA7D7 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5F0325EBA371009FA7D7 /* BaseURL.swift */; };
+		043A5F0825EBA6A7009FA7D7 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5F0725EBA6A7009FA7D7 /* Endpoints.swift */; };
+		043A5F0C25EBA9F2009FA7D7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A5F0B25EBA9F2009FA7D7 /* Network.swift */; };
+		04D9F7F825EBB64800ECF18B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D9F7F725EBB64800ECF18B /* GoogleService-Info.plist */; };
+		04D9F7FB25EC13EC00ECF18B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9F7FA25EC13EC00ECF18B /* SwiftyJSON.swift */; };
+		04D9F7FF25EC23C400ECF18B /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D9F7FE25EC23C400ECF18B /* Cities.swift */; };
+		23E84D03F2CA1CCE4913BBDA /* Pods_HCG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6725113D14085A8B2C611978 /* Pods_HCG.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +41,16 @@
 		043A5EF925EBA351009FA7D7 /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		043A5EFA25EBA351009FA7D7 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		043A5EFB25EBA351009FA7D7 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
-		043A5F0325EBA371009FA7D7 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		043A5F0325EBA371009FA7D7 /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		043A5F0725EBA6A7009FA7D7 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		043A5F0B25EBA9F2009FA7D7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		04D9F7F425EBB4FF00ECF18B /* HCG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HCG.entitlements; sourceTree = "<group>"; };
+		04D9F7F725EBB64800ECF18B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04D9F7FA25EC13EC00ECF18B /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		04D9F7FE25EC23C400ECF18B /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		0D9D8365F923D04EB1380748 /* Pods-HCG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCG.debug.xcconfig"; path = "Target Support Files/Pods-HCG/Pods-HCG.debug.xcconfig"; sourceTree = "<group>"; };
+		28FBB73A735FA9099275FF7D /* Pods-HCG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCG.release.xcconfig"; path = "Target Support Files/Pods-HCG/Pods-HCG.release.xcconfig"; sourceTree = "<group>"; };
+		6725113D14085A8B2C611978 /* Pods_HCG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E84D03F2CA1CCE4913BBDA /* Pods_HCG.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +70,8 @@
 			children = (
 				043A5ED825EB99E7009FA7D7 /* HCG */,
 				043A5ED725EB99E7009FA7D7 /* Products */,
+				CE38349EEAEC7C185847EA25 /* Pods */,
+				28BDFBCC10057ECA7A57EB72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,10 +86,11 @@
 		043A5ED825EB99E7009FA7D7 /* HCG */ = {
 			isa = PBXGroup;
 			children = (
+				04D9F7F425EBB4FF00ECF18B /* HCG.entitlements */,
 				043A5ED925EB99E7009FA7D7 /* AppDelegate.swift */,
 				043A5EDB25EB99E7009FA7D7 /* SceneDelegate.swift */,
 				043A5EF225EB9ABA009FA7D7 /* Extensions */,
-				043A5F0225EBA35A009FA7D7 /* Networking */,
+				043A5F0225EBA35A009FA7D7 /* Providers */,
 				043A5EEF25EB9A9B009FA7D7 /* Model */,
 				043A5EF025EB9AA5009FA7D7 /* View */,
 				043A5EF125EB9AAC009FA7D7 /* Controller */,
@@ -79,6 +98,7 @@
 				043A5EE425EB99EA009FA7D7 /* LaunchScreen.storyboard */,
 				043A5EE225EB99EA009FA7D7 /* Assets.xcassets */,
 				043A5EE725EB99EA009FA7D7 /* Info.plist */,
+				04D9F7F725EBB64800ECF18B /* GoogleService-Info.plist */,
 			);
 			path = HCG;
 			sourceTree = "<group>";
@@ -86,6 +106,7 @@
 		043A5EEF25EB9A9B009FA7D7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				04D9F7FE25EC23C400ECF18B /* Cities.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -117,12 +138,32 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		043A5F0225EBA35A009FA7D7 /* Networking */ = {
+		043A5F0225EBA35A009FA7D7 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
-				043A5F0325EBA371009FA7D7 /* Provider.swift */,
+				043A5F0B25EBA9F2009FA7D7 /* Network.swift */,
+				043A5F0325EBA371009FA7D7 /* BaseURL.swift */,
+				043A5F0725EBA6A7009FA7D7 /* Endpoints.swift */,
+				04D9F7FA25EC13EC00ECF18B /* SwiftyJSON.swift */,
 			);
-			path = Networking;
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		28BDFBCC10057ECA7A57EB72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6725113D14085A8B2C611978 /* Pods_HCG.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE38349EEAEC7C185847EA25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D9D8365F923D04EB1380748 /* Pods-HCG.debug.xcconfig */,
+				28FBB73A735FA9099275FF7D /* Pods-HCG.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043A5EEA25EB99EA009FA7D7 /* Build configuration list for PBXNativeTarget "HCG" */;
 			buildPhases = (
+				C2DA3C1D81B3FD594B258105 /* [CP] Check Pods Manifest.lock */,
 				043A5ED225EB99E7009FA7D7 /* Sources */,
 				043A5ED325EB99E7009FA7D7 /* Frameworks */,
 				043A5ED425EB99E7009FA7D7 /* Resources */,
+				2C1F2A1CAAF7DC4DDC23DDE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043A5EE625EB99EA009FA7D7 /* LaunchScreen.storyboard in Resources */,
+				04D9F7F825EBB64800ECF18B /* GoogleService-Info.plist in Resources */,
 				043A5EE325EB99EA009FA7D7 /* Assets.xcassets in Resources */,
 				043A5EE125EB99E7009FA7D7 /* Main.storyboard in Resources */,
 			);
@@ -190,16 +234,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C1F2A1CAAF7DC4DDC23DDE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HCG/Pods-HCG-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HCG/Pods-HCG-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HCG/Pods-HCG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2DA3C1D81B3FD594B258105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HCG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		043A5ED225EB99E7009FA7D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D9F7FF25EC23C400ECF18B /* Cities.swift in Sources */,
 				043A5EDE25EB99E7009FA7D7 /* OnboardingVC.swift in Sources */,
 				043A5EFC25EBA351009FA7D7 /* UIColor+Ext.swift in Sources */,
 				043A5EFF25EBA351009FA7D7 /* UIViewController+Ext.swift in Sources */,
+				04D9F7FB25EC13EC00ECF18B /* SwiftyJSON.swift in Sources */,
 				043A5EFE25EBA351009FA7D7 /* UIView+Ext.swift in Sources */,
-				043A5F0425EBA371009FA7D7 /* Provider.swift in Sources */,
+				043A5F0825EBA6A7009FA7D7 /* Endpoints.swift in Sources */,
+				043A5F0C25EBA9F2009FA7D7 /* Network.swift in Sources */,
+				043A5F0425EBA371009FA7D7 /* BaseURL.swift in Sources */,
 				043A5EFD25EBA351009FA7D7 /* TextField+Ext.swift in Sources */,
 				043A5EDA25EB99E7009FA7D7 /* AppDelegate.swift in Sources */,
 				043A5F0025EBA351009FA7D7 /* String+Ext.swift in Sources */,
@@ -347,9 +437,11 @@
 		};
 		043A5EEB25EB99EA009FA7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9D8365F923D04EB1380748 /* Pods-HCG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HCG/HCG.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2UBK6CWSS;
 				INFOPLIST_FILE = HCG/Info.plist;
@@ -358,7 +450,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hcg.HCG;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasancangunes.HCG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -367,9 +459,11 @@
 		};
 		043A5EEC25EB99EA009FA7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28FBB73A735FA9099275FF7D /* Pods-HCG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HCG/HCG.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W2UBK6CWSS;
 				INFOPLIST_FILE = HCG/Info.plist;
@@ -378,7 +472,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hcg.HCG;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasancangunes.HCG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
